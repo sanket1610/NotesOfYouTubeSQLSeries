@@ -2,6 +2,9 @@
 OVER and PARTITION BY clause
 ----------------------------
 
+Why do we do this ?
+Because we want few columns as it is and others to be aggregrated 
+
 -- From here we won't use goorm IDE, because that was using older versions of MySQL instead we will use https://onecompiler.com/mysql
 
 CREATE TABLE employee(

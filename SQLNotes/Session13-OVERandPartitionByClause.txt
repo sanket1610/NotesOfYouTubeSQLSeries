@@ -1,6 +1,9 @@
 ----------------------------
 OVER and PARTITION BY clause
 ----------------------------
+why do we do this?
+because we want few of the columns as it is and others with aggregrated values (count,avg, sum)
+
 
 -- From here we won't use goorm IDE, because that was using older versions of MySQL instead we will use https://onecompiler.com/mysql
 

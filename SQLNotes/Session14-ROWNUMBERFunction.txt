@@ -1,6 +1,10 @@
 -------------------
 ROW NUMBER FUNCTION
 -------------------
+always use order by wiht row_number
+\
+row_number does not solves the issue of duplicates so we use rank and dense rank insted
+
 
 CREATE TABLE employee(
     firstname varchar(20),
